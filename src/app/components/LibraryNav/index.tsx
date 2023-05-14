@@ -7,20 +7,20 @@ const LibraryNav = () =>
         <div className="flex justify-between">
             <NavItem Icon={Library} title="Library" />
             <span className="group px-3 pb-1 hover:bg-zinc-950 hover:rounded-full transition-all">
-                <a className="text-lg text-zinc-400 group-hover:text-zinc-100">+</a>
+                <a href="#" className="text-lg text-zinc-400 group-hover:text-zinc-100">+</a>
             </span>
         </div>
 
         <div className="flex gap-1 mt-3 mb-3">
-            <span className="py-1 px-2 bg-zinc-600 rounded-full hover:bg-zinc-700 transition-all">
+            <a href="#" className="py-1 px-2 bg-zinc-600 rounded-full hover:bg-zinc-700 transition-all">
                 Playlists
-            </span>
-            <span className="py-1 px-2 bg-zinc-600 rounded-full hover:bg-zinc-700 transition-all">
+            </a>
+            <a href="#" className="py-1 px-2 bg-zinc-600 rounded-full hover:bg-zinc-700 transition-all">
                 Artists
-            </span>
-            <span className="py-1 px-2 bg-zinc-600 rounded-full hover:bg-zinc-700 transition-all">
+            </a>
+            <a href="#" className="py-1 px-2 bg-zinc-600 rounded-full hover:bg-zinc-700 transition-all">
                 Albums
-            </span>
+            </a>
         </div>
 
         <div className="flex justify-between text-lg">

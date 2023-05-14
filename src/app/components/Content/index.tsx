@@ -16,7 +16,7 @@ const Content = () =>
 
         <div className="flex justify-between mt-10">
             <h2 className='font-semibold text-2xl'>Made for Gabriel Bueno</h2>
-            <a className="text-zinc-400 font-medium">Show all</a>
+            <a href="#" className="text-zinc-400 font-medium hover:text-zinc-100">Show all</a>
         </div>
 
         <div className="grid grid-cols-5 gap-4 mt-4">

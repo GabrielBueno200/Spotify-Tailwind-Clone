@@ -9,7 +9,7 @@ interface ILibraryItemProps {
 }
 
 const LibraryItem = ({ title, description, isPinned, imageSrc }: ILibraryItemProps) =>
-    <li className="flex gap-3 items-center hover:bg-zinc-800 p-2 rounded-md">
+    <li className="flex gap-3 items-center hover:bg-zinc-800 p-2 rounded-md cursor-pointer">
         <Image src={imageSrc} alt={title} width={60} height={60} />
         <span>
             <strong className="font-semibold block">{title}</strong>

@@ -1,14 +1,16 @@
 import Image from 'next/image'
-import { Laptop2, LayoutList, Maximize2, Mic2, Play, Repeat, Shuffle, SkipBack, SkipForward, Volume } from "lucide-react";
+import { Heart, Laptop2, LayoutList, Maximize2, Mic2, PictureInPicture, Play, Repeat, Shuffle, SkipBack, SkipForward, Volume } from "lucide-react";
 
 const Player = () =>
     <footer className="flex fixed bottom-0 h-20 w-full bg-zinc-950 items-center justify-between border-t border-zinc-800 px-6 py-3">
-        <div className="flex items-center gap-2">
-            <Image width={48} height={48} className='w-full' src="/album.jpg" alt="Capa do álbum Wasting Light da banda Foo Fighters" />
+        <div className="flex items-center gap-3">
+            <Image width={60} height={60} className="rounded-md" src="/assets/player-song.jpg" alt="Back On Road" />
             <div className="flex flex-col">
-                <strong className="font-normal">Rope</strong>
-                <span className="text-xs text-zinc-400">Foo Fighters</span>
+                <strong className="font-normal">Back on Road</strong>
+                <span className="text-xs text-zinc-400">Gucci Mane, Drake</span>
             </div>
+            <Heart size={16} className="text-zinc-200" />
+            <PictureInPicture size={16} className="text-zinc-200" />
         </div>
 
         <div className="flex flex-col items-center gap-2">
