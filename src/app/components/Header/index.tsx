@@ -1,13 +1,13 @@
-import { ChevronLeft, ChevronRight, } from 'lucide-react'
-import Image from 'next/image'
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import Image from "next/image";
 
-const Header = () =>
+const Header = () => (
   <div className="flex justify-between mr-4">
     <div className="flex items-center gap-4">
-      <button className='rounded-full bg-black/40 p-1'>
+      <button className="rounded-full bg-black/40 p-1">
         <ChevronLeft />
       </button>
-      <button className='rounded-full bg-black/40 p-1'>
+      <button className="rounded-full bg-black/40 p-1">
         <ChevronRight />
       </button>
     </div>
@@ -25,5 +25,6 @@ const Header = () =>
       />
     </div>
   </div>
+);
 
-export default Header
+export default Header;
