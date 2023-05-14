@@ -5,17 +5,17 @@ import Header from './components/Header'
 
 export default function Home() {
   return (
-    <div className="h-screen flex flex-col relative">
-      <div className="flex flex-1">
+    <div className="flex flex-col">
+      <div className="flex h-screen">
         <Sidebar />
 
-        <main className="flex-1 p-6">
+        <main className="flex flex-col flex-1 pt-6 pl-6">
           <Header />
           <Content />
         </main>
       </div>
 
       <Player />
-    </div>
+    </div >
   )
 }

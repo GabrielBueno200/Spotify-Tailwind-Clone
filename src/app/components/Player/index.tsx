@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { Laptop2, LayoutList, Maximize2, Mic2, Play, Repeat, Shuffle, SkipBack, SkipForward, Volume } from "lucide-react";
 
 const Player = () =>
-    <footer className="flex absolute bottom-0 h-20 w-full bg-zinc-950 items-center justify-between border-t border-zinc-800 px-6 py-3">
+    <footer className="flex fixed bottom-0 h-20 w-full bg-zinc-950 items-center justify-between border-t border-zinc-800 px-6 py-3">
         <div className="flex items-center gap-2">
             <Image width={48} height={48} className='w-full' src="/album.jpg" alt="Capa do álbum Wasting Light da banda Foo Fighters" />
             <div className="flex flex-col">
