@@ -40,7 +40,6 @@ const LibraryNav = () =>
             <LibraryItem title="Discover Weekly" description="Playlist • Spotify" imageSrc="/assets/discover-weekly.jpg" />
             <LibraryItem title="The Cure" description="Artists" imageSrc="/assets/playlist-3.jpg" />
             <LibraryItem title="U2" description="Artists" imageSrc="/assets/playlist-4.jpg" />
-
         </ul>
     </nav>
 
