@@ -15,7 +15,7 @@ const MixCard = ({ title, imageSrc }: IMixCardProps) =>
             alt="Capa do álbum Wasting Light da banda Foo Fighters"
         />
         {title}
-        <button className="w-14 h-14 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black ml-auto mr-4 invisible group-hover:visible">
+        <button className="w-14 h-14 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black ml-auto mr-4 invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-all">
             <Play className="fill-zinc-800" />
         </button>
     </a>
