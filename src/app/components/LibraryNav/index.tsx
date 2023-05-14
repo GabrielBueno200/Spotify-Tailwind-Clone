@@ -32,10 +32,12 @@ const LibraryNav = () =>
             </span>
         </div>
 
-        <ul>
+        <ul className="overflow-y-scroll max-h-96">
             <LibraryItem title="Liked songs" description="Playlist • 367 songs" imageSrc="/assets/liked-songs.jpg" isPinned />
             <LibraryItem title="I Love My '90s Hip-Hop" description="Playlist • Spotify" imageSrc="/assets/playlist-1.jpg" />
             <LibraryItem title="Coding Mode" description="Playlist • Spotify" imageSrc="/assets/playlist-2.jpg" />
+            <LibraryItem title="The Cure" description="Artists" imageSrc="/assets/playlist-3.jpg" />
+            <LibraryItem title="U2" description="Artists" imageSrc="/assets/playlist-4.jpg" />
             <LibraryItem title="The Cure" description="Artists" imageSrc="/assets/playlist-3.jpg" />
             <LibraryItem title="U2" description="Artists" imageSrc="/assets/playlist-4.jpg" />
         </ul>
