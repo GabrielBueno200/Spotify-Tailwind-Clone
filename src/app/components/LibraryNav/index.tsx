@@ -5,7 +5,7 @@ import LibraryItem from "../LibraryItem"
 const LibraryNav = () =>
     <nav className='bg-zinc-900 p-4 flex flex-col gap-1 flex-1'>
         <div className="flex justify-between">
-            <NavItem Icon={Library} title="Library" />
+            <NavItem Icon={Library} title="Your Library" />
             <span className="group px-3 pb-1 hover:bg-zinc-950 hover:rounded-full transition-all">
                 <a href="#" className="text-lg text-zinc-400 group-hover:text-zinc-100">+</a>
             </span>
