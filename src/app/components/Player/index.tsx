@@ -34,18 +34,18 @@ const Player = () => (
 
     <div className="flex flex-col items-center gap-2">
       <div className="flex items-center gap-6">
-        <Shuffle size={20} className="text-zinc-200" />
-        <SkipBack size={20} className="text-zinc-200" />
+        <Shuffle size={20} className="text-zinc-200 hidden md:block" />
+        <SkipBack size={20} className="text-zinc-200 hidden md:block" />
 
         <button className="w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-white text-zinc-950 fill-zinc-950">
           <Play className="fill-zinc-950" />
         </button>
 
-        <SkipForward size={20} className="text-zinc-200" />
-        <Repeat size={20} className="text-zinc-200" />
+        <SkipForward size={20} className="text-zinc-200 hidden md:block" />
+        <Repeat size={20} className="text-zinc-200 hidden md:block" />
       </div>
 
-      <div className="flex items-center gap-2">
+      <div className="hidden md:flex items-center gap-2">
         <div className="text-xs text-zinc-400">0:31</div>
         <div className="h-1 rounded-full w-96 bg-zinc-600">
           <div className="bg-zinc-200 w-40 h-1 rounded-full"></div>
@@ -54,7 +54,7 @@ const Player = () => (
       </div>
     </div>
 
-    <div className="flex items-center gap-2">
+    <div className="hidden md:flex items-center gap-2">
       <Mic2 size={20} />
       <LayoutList size={20} />
       <Laptop2 size={20} />
