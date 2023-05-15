@@ -43,7 +43,7 @@ const LibraryNav = () => (
       </span>
     </div>
 
-    <ul className="overflow-y-scroll md:max-h-96 lg:max-h-80 lg:pb-6 ">
+    <ul className="overflow-y-scroll max-h-96 pb-0 lg:max-h-80 lg:pb-6 ">
       <LibraryItem
         title="Liked songs"
         description="Playlist • 367 songs"
