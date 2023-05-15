@@ -45,6 +45,9 @@
 ## 💻 About The Project - Spotify Clone
 React/Next.js clone from [Spotify](https://open.spotify.com/) UI using TailwindCSS 
 
+![image](https://github.com/GabrielBueno200/Spotify-Tailwind-Clone/assets/56837996/b0fad332-54d2-49d6-af87-4a561b27a651)
+
+
 <!-- HOW TO RUN -->
 ## 🚀 How To Run
  
