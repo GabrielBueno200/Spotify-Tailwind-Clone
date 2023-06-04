@@ -3,7 +3,7 @@
 
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/GabrielBueno200/Spotify-Tailwind-Clone">
   
-  <a href="https://github.com/GabrielBueno200/monty-hall">
+  <a href="https://github.com/GabrielBueno200/Spotify-Tailwind-Clone">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/GabrielBueno200/Spotify-Tailwind-Clone">
   </a>
   
